@@ -19,7 +19,7 @@ module "ecs" {
   container_memory    = 2048
   container_cpu       = 1024
   zone_id             = var.zone_id
-  dns_record_name     = "ecs"
+  dns_record_name     = "ecs"  #updated
   health_check_path   = "/"
 }
 
