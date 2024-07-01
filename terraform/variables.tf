@@ -24,6 +24,13 @@ variable "region" {
 }
 
 variable "account_name" {
+  description = "Account name to use in naming resources"
+  type        = string
+}
+
+variable "account_id" {
+  description = "Account ID to use in naming resources"
+  type        = string
 }
 
 
