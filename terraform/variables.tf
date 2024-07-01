@@ -55,4 +55,4 @@ variable "zone_name" {
 variable "domain_name" {
   type    = string
   default = "jonestecsolutions.com"
-}sit.
+}
