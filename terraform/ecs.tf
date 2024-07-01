@@ -4,7 +4,7 @@
 module "ecs" {
   source              = "../modules/tf-ecs"
   name                = var.name
-  account_id          = var.account_id
+  account_id          = var.account_id # needs to be removed
   account_name        = var.account_name
   aws_region          = var.region
   vpc_id              = data.aws_ssm_parameter.vpc_id.value
