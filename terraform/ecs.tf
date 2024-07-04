@@ -13,7 +13,7 @@ module "ecs" {
   public_subnets_ids  = local.public_subnet_ids
   ssl_certificate_arn = data.aws_ssm_parameter.certificate_arn.value
   container_name      = var.name
-  image               = "kwameds/mycv_webapp:2.1.0"  #"194626909496.dkr.ecr.eu-west-1.amazonaws.com/jones"
+  image               = "chriscloudaz/netflix:latest" #"194626909496.dkr.ecr.eu-west-1.amazonaws.com/jones"
   app_port            = 80
   app_count           = 2
   container_memory    = 2048
