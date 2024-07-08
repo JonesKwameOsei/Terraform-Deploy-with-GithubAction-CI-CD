@@ -1,7 +1,7 @@
-region       = "eu-west-1"
-short_region = "euw1"
-account_name = "jones"
-account_id   = "194626909496"  # to be removed after deployment 
+region       = "eu-west-6"
+short_region = "euw6"
+account_name = "********"
+account_id   = "************"  # to be removed after deployment 
 
 tags = {
   AccountName = "jones"
